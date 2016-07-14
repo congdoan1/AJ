@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <h1>Login Page</h1>
+        <form action="CenterServlet" method="POST">
+            <table>
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" name="txtUsername" value="" /></td><br/>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="txtPassword" value="" /><br/></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Login" name="btAction" />
+                        <input type="reset" value="Reset" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
